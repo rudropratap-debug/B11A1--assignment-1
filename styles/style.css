@@ -478,4 +478,23 @@ nav{
     letter-spacing: 0%;
     text-align: left;
 }
+/* footer sections style end */
+
+/* hover effect  */
+.btn-primary:hover{
+    background: rgb(83, 114, 119);
+    cursor: pointer;
+    transition: .5s;
+}
+.donate-box:hover{
+        background: rgb(91, 116, 120);
+        cursor: pointer;
+        transition: .5s;
+    
+}
+.nav-button:hover{
+    background: rgb(167, 213, 220);
+    cursor: pointer;
+    transition: .5s;
+}
 
