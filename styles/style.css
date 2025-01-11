@@ -44,6 +44,33 @@
     margin-top:36px;
     border:none;
     }
+.news-content{
+        margin-top: 35px;
+        padding: 45px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 25px;
+        display: flex;
+        gap:40px;
+}
+.card{
+    width: 410px;
+    height:325px;
+    text-align: left;  
+    padding:24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.vision-card{
+    width:410px;
+    width:325px;
+    text-align: left;
+    padding:32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    
+}
 
 /* nav style starts here */
 nav{
@@ -133,15 +160,7 @@ nav{
     margin-top:32px;
     max-width: 1280px;
 }
-.card{
-    width: 410px;
-    height:325px;
-    text-align: left;
-    padding:24px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-    }
+
 .card-heading{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -200,15 +219,7 @@ nav{
     margin-bottom: 24px;
 }
 
-.vision-card{
-    width:410px;
-    width:325px;
-    text-align: left;
-    padding:32px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    
-    }
+
 .vision-cards{
     display: flex;
     align-items: center;
@@ -279,14 +290,7 @@ nav{
     letter-spacing: 0%;
     text-align: left;
 }
-.news-content{
-    margin-top: 35px;
-    padding: 45px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 25px;
-    display: flex;
-    gap:40px;
+
 }
 .news-img{
     border-radius: 24px;
@@ -449,6 +453,29 @@ nav{
 }
 /* subscribe section style end  */
 
-
-
+/* footer section style */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:32px;
+    background-color: white;
+    padding: 50px 160px 50px 160px;
+    border-top:1px solid rgba(14, 14, 14, 0.15);
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+.footer-content{
+    display: flex;
+    gap:23px;
+}
+.footer-heading{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
