@@ -498,4 +498,10 @@ nav{
     cursor: pointer;
     transition: .5s;
 }
+.vision-btn-primary:hover{
+    font-size: 18px;
+    cursor: pointer;
+    transition: .5s;
+}
+
 
