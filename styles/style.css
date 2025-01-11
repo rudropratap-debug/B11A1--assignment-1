@@ -20,7 +20,7 @@
 }
 .btn-primary{
     border-radius: 8px;
-    background: rgb(0, 106, 80);
+    
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 18px;
@@ -30,6 +30,21 @@
     text-align: left;
     padding: 17px 34px 17px 34px;
     }
+.vision-btn-primary{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top:36px;
+    border:none;
+    }
+
 /* nav style starts here */
 nav{
     display: flex;
@@ -160,7 +175,48 @@ nav{
 }
 /* card style end */
 
-/* visition section style  */
+/* vision section style  */
+.vision{
+    margin-bottom:40px;
+}
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom:24px;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.vision-card{
+    width:410px;
+    width:325px;
+    text-align: left;
+    padding:32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    
+    }
+.vision-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+
+}
+/* vision section end */
 
 
 
